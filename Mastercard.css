@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#e3f2fd;
+}
+.container{
+    position:relative;
+    background-image: url("/Advance/image/bg.png");
+    background-size: cover;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    border:2px solid  ;
+    border-color: chartreuse;
+    box-shadow: 0 5px 10px rgba(0, 0,0, 1.8);
+}
+header,.logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+
+}
+h3{
+    font-size: 23px;
+    font-weight: 400px;
+    color:#fff;
+}
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+header img{
+    width: 60px;
+}
+h6{
+    font-size: 12px ;
+    font-weight: 400;
+    /* padding: 5px; */
+    color:#fff
+}
+.name-number  h6{
+    font-size: 22px;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding:5px;
+    color: #fff;
+}
+.container .card-details{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+}
